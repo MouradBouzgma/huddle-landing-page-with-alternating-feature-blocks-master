@@ -1,29 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title>Frontend Mentor | Order summary card</title>
-  <link rel="stylesheet" href="gitignore.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
+
 <body>
-  <div class="card">
-    <img class="illustrition" src="images/illustration-hero.svg">
-    <div class="container">
-      <h1>Order Summary</h1>
-      <p class="description">You can now listen to millions of songs,audiobooks,and podcasts on any device anywhere you like!</p> 
-      <div class="plan">
-        <img class="icon-music" src="images/icon-music.svg" alt="">
-        <p>Annual Plan</p>
-        <p>$59.99/year</p>
-        <a href="#">change</a>
+  <div class="continer">
+    <header>
+      <div class="container">
+        <img src="images/logo.svg" alt="Logo">
+        <a href="#">Try It Free</a>
       </div>
-      <div class="payement">Proceed to Payment</div>
-      <div class="cancel">Cancel order</div> 
-    </div> 
+    </header>
+    <main>
+      <section class="first">
+        <div class="container">
+          <div class="text">
+            <h1>Build The Community Your Fans Will Love</h1>
+            <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+              Create connections with your users as you engage in genuine discussion.</p>
+            <a href="#" class="get-started">Get Started For Free</a>
+          </div>
+          <div class="illustration">
+            <img src="images/illustration-mockups.svg" alt="" aria-hidden="true">
+          </div>
+        </div>
+      </section>
+    </main>
   </div>
+  <main>
+    <section class="second">
+      <div class="special">
+        <div class="container ">
+          <div class="special-text">
+            <h2>Grow Together</h2>
+            <p>Generate meaningful discussions with your audience and build a strong, loyal community.
+              Think of the insightful conversations you miss out on with a feedback form.</p>
+          </div>
+          <div class="special-illustration">
+            <img src="images/illustration-grow-together.svg" alt="" aria-hidden="true">
+          </div>
+        </div>
+      </div>
+      <div class="special">
+        <div class="container">
+          <div class="special-text">
+            <h2>Flowing Conversations</h2>
+            <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads
+              have just-in-time loading for a more natural flow.</p>
+          </div>
+          <div class="special-illustration">
+            <img src="images/illustration-flowing-conversation.svg" alt="" aria-hidden="true">
+          </div>
+        </div>
+      </div>
+      <div class="special">
+        <div class="container">
+          <div class="special-text">
+            <h2>Your Users</h2>
+            <p>It takes no time at all to integrate Huddle with your app's authentication solution.
+              This means, once signed in to your app, your users can start chatting immediately.</p>
+          </div>
+          <div class="special-illustration">
+            <img src="images/illustration-your-users.svg" alt="" aria-hidden="true">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="third">
+      <div class="container">
+        <h2>Ready To Build Your Community?</h2>
+        <a href="#" class="get-started">Get Started For Free</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="logo">
+        <a href="#"><img src="images/logo.svg" alt="" aria-hidden="true"></a>
+      </div>
+      <div class="links">
+        <div class="adress">
+          <div>
+            <img src="images/icon-location.svg" alt="" aria-hidden="true">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua</p>
+          </div>
+          <div>
+            <img src="images/icon-phone.svg" alt="" aria-hidden="true">
+            <p>+1-543-123-4567</p>
+          </div>
+          <div>
+            <img src="images/icon-email.svg" alt="" aria-hidden="true">
+            <a href="mailto:example@huddle.com">example@huddle.com</a>
+          </div>
+        </div>
+        <div class="awf">
+          <a href="#">About Us</a>
+          <a href="#">What We Do</a>
+          <a href="#">FAQ</a>
+        </div>
+        <div class="cbc">
+          <a href="#">Career</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="social-media">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
